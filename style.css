@@ -1,0 +1,111 @@
+             body {
+            background: #eef2fd;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: solid thin black;
+            line-height: normal;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        .copyright {
+            font-size: small;
+            color: #999;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .Thanks {
+            text-align: center;
+            color: #999;
+            font-size: 12px;
+        }
+
+        .success {
+            color: green;
+        }
+
+        .usage {
+            display: flex;
+            flex-direction: column;
+            padding: .7em .7em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px 0;
+            background: #fff;
+            box-shadow: 0 0 5px #ccc;
+            font-size: 14px;
+            font-family: monospace;
+            color: #333;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+
+        .gen {
+            display: flex;
+            flex-direction: row;
+            padding: .7em .7em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px 0;
+            background: #fff;
+            box-shadow: 0 0 5px #ccc;
+            align-items: center;
+        }
+
+        .gen input {
+            width: 400px;
+            height: 30px;
+        }
+
+        .gen button {
+            width: 100px;
+            height: 30px;
+            margin-left: 10px;
+            border-radius: 5px;
+            border: none;
+            background: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .gen button:hover {
+            opacity: 0.7;
+        }
+
+        .warning {
+            color: red;
+            padding: 1.6em;
+        }
+
+        
+#passwordResult {
+    width: 400px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+.copy-button {
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.copy-button:hover {
+    opacity: 0.7;
+}
